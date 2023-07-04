@@ -1,7 +1,7 @@
 # Deteksi marka Jalan
 ## Praktikum Akhir Pengolahan Citra
 #### Mohamad Tanwirul Akbar_202131066_PengolahanCitra
-Program ini dijalankan untuk mendeteksi warna kuning yang terdapat pada gambar. Dimana program dijalankan dengan filter garis tepi Canny dan juga HoughLinesP
+Program ini dijalankan untuk mendeteksi warna kuning yang terdapat pada gambar. Dimana program dijalankan dengan deteksi HoughLinesP
 
 
 
@@ -36,11 +36,11 @@ resize = cv2.resize(img, dimen, interpolation = cv2.INTER_AREA)
 ```
 lakukan fungsi resize, dimana source gambar akan tersimpan pada variabel baru resize
 ```bash
-resize = cv2.cvtColor(resize, cv2.COLOR_BGR2RGB)
-plt.imshow(resize)
+image = cv2.cvtColor(resize, cv2.COLOR_BGR2RGB)
+plt.imshow(image)
 ```
-Mencoba untuk menampilkan rezise, sebelum menampilkan gambar, lakukan filtering BGR2RGB agar warna gambar sesuai dengan warna asli.
-Lalu tampilkan dengan fungsi imshow.
+Mencoba untuk menampilkan rezise yang disimpan pada variabel image. Dan sebelum menampilkan gambar, lakukan filtering BGR2RGB agar warna gambar sesuai dengan warna asli.
+Lalu tampilkan dengan fungsi imshow pada image.
 
 #### Pada bagian selanjutnya terdapat deteksi garis warna kuning pada gambar dengan cara mengganti format warna ke HSV
 ```bash
@@ -59,12 +59,12 @@ for line in lines:
 ```
 Lakukan fungsi HoughLinesP untuk menambahkan garis pada gambar, dan img_line menyimpan gambar asli sehingga gambar asli akan ditumpuk dengan garis deteksi
 ```bash
-img_2 = cv2.cvtColor(img_line, cv2.COLOR_BGR2RGB)
+img2 = cv2.cvtColor(img_line, cv2.COLOR_BGR2RGB)
 fig, axs = plt.subplots(1,2, figsize = (10,10))
 ax = axs.ravel()
-ax[0].imshow(resize)
+ax[0].imshow(image)
 ax[0].set_title('Gambar asli')
-ax[1].imshow(img_2)
+ax[1].imshow(img2)
 ax[1].set_title('Pasca Deteksi')
 ```
 Tampilkan gambar asli dan setelah deteksi untuk membandingkan keduanya. maka gambar sudah berhasil dideteksi
@@ -73,4 +73,7 @@ Tampilkan gambar asli dan setelah deteksi untuk membandingkan keduanya. maka gam
 [Gambar](https://raw.githubusercontent.com/Tanwirul0411/PA-PC_202131066_M.TanwirulAkbar_A/main/Screenshot_2023-07-04-09-26-46-887_com.miui.gallery.jpg)
 
 [Bukti Rincian Gambar](https://raw.githubusercontent.com/Tanwirul0411/PA-PC_202131066_M.TanwirulAkbar_A/main/Screenshot_2023-07-04-09-26-57-895_com.miui.gallery.jpg)
+
+#### Hasil Output
+![Screenshot 2023-07-05 025826](https://github.com/Tanwirul0411/PA-PC_202131066_M.TanwirulAkbar_A/assets/125352733/be176924-45c2-452c-850b-6b3758dbb202)
 
