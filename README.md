@@ -41,20 +41,7 @@ plt.imshow(resize)
 ```
 Mencoba untuk menampilkan rezise, sebelum menampilkan gambar, lakukan filtering BGR2RGB agar warna gambar sesuai dengan warna asli.
 Lalu tampilkan dengan fungsi imshow.
-```bash
-gray = cv2.cvtColor(resize, cv2.COLOR_BGR2GRAY)
-edge = cv2.Canny(resize, 100, 150)
-```
-Gunakan filter canny untuk deteksi garis secara menyeluruh dengan format gambar biner
-```bash
-fig, axs = plt.subplots(1,2, figsize = (10,10))
-ax = axs.ravel()
-ax[0].imshow(gray, cmap = 'gray')
-ax[0].set_title('Gambar Grayscale')
-ax[1].imshow(edge, cmap = 'gray')
-ax[1].set_title('Pasca Edge')
-```
-Tampilkan dalam bentuk subplots untuk membandingkan gambar grayscale dan edge detection.
+
 #### Pada bagian selanjutnya terdapat deteksi garis warna kuning pada gambar dengan cara mengganti format warna ke HSV
 ```bash
 hsv = cv2.cvtColor(resize, cv2.COLOR_BGR2HSV)
