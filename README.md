@@ -70,7 +70,7 @@ ax[1].set_title('Pasca Deteksi')
 Tampilkan gambar asli dan setelah deteksi untuk membandingkan keduanya. maka gambar sudah berhasil dideteksi
 ## Source Gambar dan Rinciannya
 
-[Gambar](https://raw.githubusercontent.com/Tanwirul0411/PA-PC_202131066_M.TanwirulAkbar_A/main/Screenshot_2023-07-04-09-26-46-887_com.miui.gallery.jpg)
+[Gambar](https://github.com/Tanwirul0411/PA-PC_202131066_M.TanwirulAkbar_A/blob/main/Jalan.jpg)
 
 [Bukti Rincian Gambar](https://raw.githubusercontent.com/Tanwirul0411/PA-PC_202131066_M.TanwirulAkbar_A/main/Screenshot_2023-07-04-09-26-57-895_com.miui.gallery.jpg)
 
