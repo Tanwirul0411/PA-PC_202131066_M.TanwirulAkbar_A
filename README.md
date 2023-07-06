@@ -89,5 +89,5 @@ Tampilkan gambar asli dan setelah deteksi untuk membandingkan keduanya. maka gam
 [Bukti Rincian Gambar](https://raw.githubusercontent.com/Tanwirul0411/PA-PC_202131066_M.TanwirulAkbar_A/main/Screenshot_2023-07-04-09-26-57-895_com.miui.gallery.jpg)
 
 #### Hasil Output
-![Screenshot 2023-07-05 025826](https://github.com/Tanwirul0411/PA-PC_202131066_M.TanwirulAkbar_A/assets/125352733/be176924-45c2-452c-850b-6b3758dbb202)
+![image](https://github.com/Tanwirul0411/PA-PC_202131066_M.TanwirulAkbar_A/assets/125352733/7a396312-f19b-415a-ace8-4c3fa6e43df6)
 
