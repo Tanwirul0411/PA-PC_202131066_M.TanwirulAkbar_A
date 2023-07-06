@@ -2,9 +2,10 @@
 ## Praktikum Akhir Pengolahan Citra
 #### Mohamad Tanwirul Akbar_202131066_PengolahanCitra
 Program ini dijalankan untuk mendeteksi warna kuning yang terdapat pada gambar. Dimana program dijalankan dengan deteksi HoughLinesP
-
-
-
+HoughLinesP adalah sebuah metode yang digunakan dalam pemrosesan citra untuk mendeteksi garis lurus dalam sebuah gambar. Metode ini sering digunakan dalam deteksi marka jalan pada aplikasi Computer Vision dan juga pengolahan citra.
+Fungsi HoughLinesP secara khusus mengimplementasikan Transformasi Hough Probabilistik (Probabilistic Hough Transform). Transformasi Hough adalah teknik yang digunakan untuk mendeteksi garis lurus dalam citra dengan mengubahnya ke dalam domain parameter (ruang Hough). Ruang Hough sendiri terdiri dari dua parameter, yaitu sudut (theta "θ") dan jarak (rho "ρ"), yang mempresentasikan garis lurus dalam citra.
+Setelah mendapatkan garis-garis yang terdeteksi, Anda dapat menggunakan informasi ini untuk menggambar atau mengambil tindakan lain terkait marka jalan. Misalnya, Anda dapat menggambarkan garis-garis ini kembali ke citra asli, atau menggunakan mereka untuk analisis lanjutan seperti pengenalan bentuk atau penghitungan parameter jalan.
+Penting untuk dicatat bahwa HoughLinesP dapat memberikan hasil yang baik dalam kondisi ideal, tetapi dapat sensitif terhadap gangguan dan kekacauan dalam citra. Oleh karena itu, seringkali diperlukan pra-pemrosesan citra, seperti filterisasi atau segmentasi, untuk memperbaiki hasil deteksi garis.
 
 Source Code
 ```bash
