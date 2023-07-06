@@ -1,4 +1,4 @@
-# Deteksi marka Jalan
+# Program Bahasa Python untuk Mendeteksi Marka Jalan
 ## Praktikum Akhir Pengolahan Citra
 #### Mohamad Tanwirul Akbar
 #### 202131066 
